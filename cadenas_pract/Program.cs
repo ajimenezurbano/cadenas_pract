@@ -13,7 +13,7 @@ namespace cadenas_pract
 
                 while (texto.Length < 40)
                 {
-                    Console.WriteLine("La cadena introducida posee únicamente" + texto.Length + "caracteres. Por favor, introduzca una nueva cadena con más de 40 caracteres: ");
+                    Console.WriteLine("La cadena introducida posee únicamente " + texto.Length + " caracteres. Por favor, introduzca una nueva cadena con más de 40 caracteres: ");
                     texto = Console.ReadLine();
                 }
 
